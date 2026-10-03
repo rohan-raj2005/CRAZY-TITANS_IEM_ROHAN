@@ -1,0 +1,381 @@
+{
+  "models": {
+    "Logistic Regression": {
+      "accuracy": 0.8578,
+      "accuracy_std": 0.0531,
+      "precision": 0.9414,
+      "precision_std": 0.0657,
+      "recall": 0.7935,
+      "recall_std": 0.0713,
+      "f1_score": 0.8586,
+      "f1_score_std": 0.053,
+      "roc_auc": 0.9622,
+      "roc_auc_std": 0.0292,
+      "confusion_matrix": [
+        [
+          191,
+          13
+        ],
+        [
+          51,
+          196
+        ]
+      ],
+      "roc_curve": [
+        {
+          "threshold": 1,
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "threshold": 0.9,
+          "fpr": 0,
+          "tpr": 0.2024
+        },
+        {
+          "threshold": 0.8,
+          "fpr": 0,
+          "tpr": 0.498
+        },
+        {
+          "threshold": 0.7,
+          "fpr": 0.0196,
+          "tpr": 0.6356
+        },
+        {
+          "threshold": 0.6,
+          "fpr": 0.0245,
+          "tpr": 0.7004
+        },
+        {
+          "threshold": 0.5,
+          "fpr": 0.0637,
+          "tpr": 0.7935
+        },
+        {
+          "threshold": 0.4,
+          "fpr": 0.1029,
+          "tpr": 0.8462
+        },
+        {
+          "threshold": 0.3,
+          "fpr": 0.152,
+          "tpr": 0.9271
+        },
+        {
+          "threshold": 0.2,
+          "fpr": 0.1814,
+          "tpr": 0.9838
+        },
+        {
+          "threshold": 0.1,
+          "fpr": 0.2206,
+          "tpr": 1
+        },
+        {
+          "threshold": 0,
+          "fpr": 1,
+          "tpr": 1
+        }
+      ]
+    },
+    "Random Forest": {
+      "accuracy": 0.9089,
+      "accuracy_std": 0.0381,
+      "precision": 0.8712,
+      "precision_std": 0.0391,
+      "recall": 0.9797,
+      "recall_std": 0.0224,
+      "f1_score": 0.9221,
+      "f1_score_std": 0.0314,
+      "roc_auc": 0.9643,
+      "roc_auc_std": 0.0252,
+      "confusion_matrix": [
+        [
+          168,
+          36
+        ],
+        [
+          5,
+          242
+        ]
+      ],
+      "roc_curve": [
+        {
+          "threshold": 1,
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "threshold": 0.9,
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "threshold": 0.8,
+          "fpr": 0,
+          "tpr": 0.1215
+        },
+        {
+          "threshold": 0.7,
+          "fpr": 0.0049,
+          "tpr": 0.5668
+        },
+        {
+          "threshold": 0.6,
+          "fpr": 0.0882,
+          "tpr": 0.8259
+        },
+        {
+          "threshold": 0.5,
+          "fpr": 0.1765,
+          "tpr": 0.9798
+        },
+        {
+          "threshold": 0.4,
+          "fpr": 0.2255,
+          "tpr": 1
+        },
+        {
+          "threshold": 0.3,
+          "fpr": 0.6029,
+          "tpr": 1
+        },
+        {
+          "threshold": 0.2,
+          "fpr": 0.9559,
+          "tpr": 1
+        },
+        {
+          "threshold": 0.1,
+          "fpr": 1,
+          "tpr": 1
+        },
+        {
+          "threshold": 0,
+          "fpr": 1,
+          "tpr": 1
+        }
+      ]
+    },
+    "XGBoost": {
+      "accuracy": 0.9022,
+      "accuracy_std": 0.0427,
+      "precision": 0.8733,
+      "precision_std": 0.0469,
+      "recall": 0.9635,
+      "recall_std": 0.0238,
+      "f1_score": 0.9159,
+      "f1_score_std": 0.0347,
+      "roc_auc": 0.9667,
+      "roc_auc_std": 0.0235,
+      "confusion_matrix": [
+        [
+          169,
+          35
+        ],
+        [
+          9,
+          238
+        ]
+      ],
+      "roc_curve": [
+        {
+          "threshold": 1,
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "threshold": 0.9,
+          "fpr": 0,
+          "tpr": 0.6802
+        },
+        {
+          "threshold": 0.8,
+          "fpr": 0.0245,
+          "tpr": 0.6964
+        },
+        {
+          "threshold": 0.7,
+          "fpr": 0.0784,
+          "tpr": 0.8138
+        },
+        {
+          "threshold": 0.6,
+          "fpr": 0.1275,
+          "tpr": 0.9109
+        },
+        {
+          "threshold": 0.5,
+          "fpr": 0.1716,
+          "tpr": 0.9636
+        },
+        {
+          "threshold": 0.4,
+          "fpr": 0.1765,
+          "tpr": 0.996
+        },
+        {
+          "threshold": 0.3,
+          "fpr": 0.1765,
+          "tpr": 0.996
+        },
+        {
+          "threshold": 0.2,
+          "fpr": 0.1961,
+          "tpr": 1
+        },
+        {
+          "threshold": 0.1,
+          "fpr": 0.2059,
+          "tpr": 1
+        },
+        {
+          "threshold": 0,
+          "fpr": 1,
+          "tpr": 1
+        }
+      ]
+    }
+  },
+  "featureNames": [
+    "study_year__First Year",
+    "study_year__Fourth Year",
+    "study_year__Second Year",
+    "study_year__Third Year",
+    "socio-economic_background__High",
+    "socio-economic_background__Low",
+    "socio-economic_background__Lower-middle",
+    "socio-economic_background__Middle",
+    "socio-economic_background__Upper-middle",
+    "assignment_submission_timing__Always",
+    "assignment_submission_timing__Never",
+    "assignment_submission_timing__Occasionally",
+    "assignment_submission_timing__Often",
+    "assignment_submission_timing__Sometimes",
+    "last_minute_exam_preparation__No",
+    "last_minute_exam_preparation__Yes",
+    "stress_due_to_procrastination__Moderately",
+    "stress_due_to_procrastination__Not at all",
+    "stress_due_to_procrastination__Significantly",
+    "stress_due_to_procrastination__Slightly",
+    "study_hours_per_week__0-5 hours",
+    "study_hours_per_week__11-15 hours",
+    "study_hours_per_week__16+ hours",
+    "study_hours_per_week__6-10 hours",
+    "cgpa__2.50 - 2.99",
+    "cgpa__3.00 - 3.49",
+    "cgpa__3.50 - 3.74",
+    "cgpa__3.75 - 4.00",
+    "cgpa__Below 2.50",
+    "use_of_time_management__Always",
+    "use_of_time_management__Never",
+    "use_of_time_management__Occasionally",
+    "use_of_time_management__Often",
+    "use_of_time_management__Sometimes",
+    "procrastination_management_training__No",
+    "procrastination_management_training__Yes",
+    "procrastination_recovery_strategies__No",
+    "procrastination_recovery_strategies__Yes",
+    "hours_spent_on_mobile_non_academic__1-2 hours",
+    "hours_spent_on_mobile_non_academic__3-4 hours",
+    "hours_spent_on_mobile_non_academic__More than 4 hours",
+    "study_session_distractions__Always",
+    "study_session_distractions__Never",
+    "study_session_distractions__Occasionally",
+    "study_session_distractions__Often",
+    "study_session_distractions__Sometimes",
+    "reason_lack_of_interest",
+    "reason_distractions",
+    "reason_poor_time_management",
+    "reason_stress_anxiety",
+    "reason_lack_of_resources",
+    "reason_health_issues",
+    "reason_unclear_instructions",
+    "reason_personal_family_problems",
+    "reason_overconfidence"
+  ],
+  "datasetSize": 451,
+  "classBalance": {
+    "procrastinators": 247,
+    "nonProcrastinators": 204,
+    "procrastinationRate": 0.5477
+  },
+  "topFeatures": [
+    {
+      "feature": "Assignment Submission Timing: Always",
+      "rawName": "assignment_submission_timing__Always",
+      "importance": 3.58
+    },
+    {
+      "feature": "Last Minute Exam Preparation: Yes",
+      "rawName": "last_minute_exam_preparation__Yes",
+      "importance": 3.53
+    },
+    {
+      "feature": "Procrastination Recovery Strategies: No",
+      "rawName": "procrastination_recovery_strategies__No",
+      "importance": 3.25
+    },
+    {
+      "feature": "Socio-Economic Background: High",
+      "rawName": "socio-economic_background__High",
+      "importance": 3.2
+    },
+    {
+      "feature": "Reason: Lack Of Interest",
+      "rawName": "reason_lack_of_interest",
+      "importance": 3.2
+    },
+    {
+      "feature": "Last Minute Exam Preparation: No",
+      "rawName": "last_minute_exam_preparation__No",
+      "importance": 3.06
+    },
+    {
+      "feature": "Hours Spent On Mobile Non Academic: 1-2 Hours",
+      "rawName": "hours_spent_on_mobile_non_academic__1-2 hours",
+      "importance": 2.92
+    },
+    {
+      "feature": "Procrastination Recovery Strategies: Yes",
+      "rawName": "procrastination_recovery_strategies__Yes",
+      "importance": 2.82
+    },
+    {
+      "feature": "Study Year: Third Year",
+      "rawName": "study_year__Third Year",
+      "importance": 2.78
+    },
+    {
+      "feature": "Reason: Health Issues",
+      "rawName": "reason_health_issues",
+      "importance": 2.78
+    },
+    {
+      "feature": "Assignment Submission Timing: Sometimes",
+      "rawName": "assignment_submission_timing__Sometimes",
+      "importance": 2.73
+    },
+    {
+      "feature": "Stress Due To Procrastination: Significantly",
+      "rawName": "stress_due_to_procrastination__Significantly",
+      "importance": 2.68
+    },
+    {
+      "feature": "Assignment Submission Timing: Occasionally",
+      "rawName": "assignment_submission_timing__Occasionally",
+      "importance": 2.49
+    },
+    {
+      "feature": "Study Session Distractions: Often",
+      "rawName": "study_session_distractions__Often",
+      "importance": 2.4
+    },
+    {
+      "feature": "Use Of Time Management: Occasionally",
+      "rawName": "use_of_time_management__Occasionally",
+      "importance": 2.35
+    }
+  ]
+}

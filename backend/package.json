@@ -1,0 +1,27 @@
+{
+  "name": "cerebro-backend",
+  "version": "1.0.0",
+  "description": "CEREBRO: AI-Based Academic Procrastination Pattern Detection System - Backend REST API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "train": "node ml/trainModels.js"
+  },
+  "keywords": [
+    "cerebro",
+    "machine-learning",
+    "procrastination-detection",
+    "academic-analytics",
+    "express"
+  ],
+  "author": "CEREBRO AI",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}

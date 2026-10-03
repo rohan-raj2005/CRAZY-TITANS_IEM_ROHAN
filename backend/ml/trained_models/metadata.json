@@ -1,0 +1,145 @@
+{
+  "catEncodings": {
+    "study_year": [
+      "First Year",
+      "Fourth Year",
+      "Second Year",
+      "Third Year"
+    ],
+    "socio-economic_background": [
+      "High",
+      "Low",
+      "Lower-middle",
+      "Middle",
+      "Upper-middle"
+    ],
+    "assignment_submission_timing": [
+      "Always",
+      "Never",
+      "Occasionally",
+      "Often",
+      "Sometimes"
+    ],
+    "last_minute_exam_preparation": [
+      "No",
+      "Yes"
+    ],
+    "stress_due_to_procrastination": [
+      "Moderately",
+      "Not at all",
+      "Significantly",
+      "Slightly"
+    ],
+    "study_hours_per_week": [
+      "0-5 hours",
+      "11-15 hours",
+      "16+ hours",
+      "6-10 hours"
+    ],
+    "cgpa": [
+      "2.50 - 2.99",
+      "3.00 - 3.49",
+      "3.50 - 3.74",
+      "3.75 - 4.00",
+      "Below 2.50"
+    ],
+    "use_of_time_management": [
+      "Always",
+      "Never",
+      "Occasionally",
+      "Often",
+      "Sometimes"
+    ],
+    "procrastination_management_training": [
+      "No",
+      "Yes"
+    ],
+    "procrastination_recovery_strategies": [
+      "No",
+      "Yes"
+    ],
+    "hours_spent_on_mobile_non_academic": [
+      "1-2 hours",
+      "3-4 hours",
+      "More than 4 hours"
+    ],
+    "study_session_distractions": [
+      "Always",
+      "Never",
+      "Occasionally",
+      "Often",
+      "Sometimes"
+    ]
+  },
+  "featureNames": [
+    "study_year__First Year",
+    "study_year__Fourth Year",
+    "study_year__Second Year",
+    "study_year__Third Year",
+    "socio-economic_background__High",
+    "socio-economic_background__Low",
+    "socio-economic_background__Lower-middle",
+    "socio-economic_background__Middle",
+    "socio-economic_background__Upper-middle",
+    "assignment_submission_timing__Always",
+    "assignment_submission_timing__Never",
+    "assignment_submission_timing__Occasionally",
+    "assignment_submission_timing__Often",
+    "assignment_submission_timing__Sometimes",
+    "last_minute_exam_preparation__No",
+    "last_minute_exam_preparation__Yes",
+    "stress_due_to_procrastination__Moderately",
+    "stress_due_to_procrastination__Not at all",
+    "stress_due_to_procrastination__Significantly",
+    "stress_due_to_procrastination__Slightly",
+    "study_hours_per_week__0-5 hours",
+    "study_hours_per_week__11-15 hours",
+    "study_hours_per_week__16+ hours",
+    "study_hours_per_week__6-10 hours",
+    "cgpa__2.50 - 2.99",
+    "cgpa__3.00 - 3.49",
+    "cgpa__3.50 - 3.74",
+    "cgpa__3.75 - 4.00",
+    "cgpa__Below 2.50",
+    "use_of_time_management__Always",
+    "use_of_time_management__Never",
+    "use_of_time_management__Occasionally",
+    "use_of_time_management__Often",
+    "use_of_time_management__Sometimes",
+    "procrastination_management_training__No",
+    "procrastination_management_training__Yes",
+    "procrastination_recovery_strategies__No",
+    "procrastination_recovery_strategies__Yes",
+    "hours_spent_on_mobile_non_academic__1-2 hours",
+    "hours_spent_on_mobile_non_academic__3-4 hours",
+    "hours_spent_on_mobile_non_academic__More than 4 hours",
+    "study_session_distractions__Always",
+    "study_session_distractions__Never",
+    "study_session_distractions__Occasionally",
+    "study_session_distractions__Often",
+    "study_session_distractions__Sometimes",
+    "reason_lack_of_interest",
+    "reason_distractions",
+    "reason_poor_time_management",
+    "reason_stress_anxiety",
+    "reason_lack_of_resources",
+    "reason_health_issues",
+    "reason_unclear_instructions",
+    "reason_personal_family_problems",
+    "reason_overconfidence"
+  ],
+  "modes": {
+    "study_year": "Third Year",
+    "socio-economic_background": "Upper-middle",
+    "assignment_submission_timing": "Never",
+    "last_minute_exam_preparation": "Yes",
+    "stress_due_to_procrastination": "Significantly",
+    "study_hours_per_week": "0-5 hours",
+    "cgpa": "3.00 - 3.49",
+    "use_of_time_management": "Always",
+    "procrastination_management_training": "No",
+    "procrastination_recovery_strategies": "No",
+    "hours_spent_on_mobile_non_academic": "More than 4 hours",
+    "study_session_distractions": "Often"
+  }
+}
